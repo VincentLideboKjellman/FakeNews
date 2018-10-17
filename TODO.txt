@@ -1,0 +1,3 @@
+1. Build Arrays to store data
+2. Develop functions to use Arrays
+3. Implement functions to front-end html.
