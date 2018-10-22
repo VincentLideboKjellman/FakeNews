@@ -44,27 +44,41 @@ $articles = [
     'authorId' => 1
 ],
 [
-  'title' => 'Lorem2',
-  'content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident,
-    sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  'title' => 'This is: Lorem 2 - The words of internet',
+  'content' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
+    odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.
+    Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+    Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris
+    sit amet orci. Aenean dignissim pellentesque felis.
+    <br><br>
+    Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in,
+    pharetra a, ultricies in, diam. Sed arcu. Cras consequat.
+    Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae,
+    eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt
+    quis, accumsan porttitor, facilisis luctus, metus.
+    Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer
+    ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a,
+    sodales sit amet, nisi.',
   'publisherDate' => "2016-02-16",
   'likeCounter' => 100,
   'authorId' => 1
 ],
 [
-  'title' => 'NOT LOREM',
-  'content' => 'NOT Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident,
-    sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  'title' => 'CARS',
+  'content' => '
+    VW’s issues have made his consolidation thesis "more valid," Marchionne said
+    Wednesday on an earnings conference call. The CEO, who has been rebuffed by
+    General Motors Co. and Ford Motor Co., said he has spoken with automakers who
+    share his views on the need for companies to merge to spread costs.
+    "Our self-driving cars are being hit surprisingly often by other drivers who
+    are distracted and not paying attention to the road," wrote Chris Urmson,
+    director of Google\'s self-driving car project, in the blog post.
+    <br><br>
+    "The clear theme is human error and inattention" in those incidents.
+    Google is testing a fleet of 23 specially equipped Lexus prototypes,
+    and said it has logged more than 1 million test miles. Last month,
+    the company began testing tiny, bubble-shaped self-driving prototype
+    vehicles of its own design on public roads around Mountain View.',
   'publisherDate' => "2017-07-19",
   'likeCounter' => 98,
   'authorId' => 2
@@ -111,83 +125,5 @@ $articles = [
 
 ];
 
-
-
-
-
-
-
-
-
-
-
-// $authorsAndArticles = [
-//   'Author1' => [
-//       'Article1',
-//       'Article2',
-//   ],
-//   'Author2' => [
-//       'Article1',
-//       'Article2',
-//   ],
-//   'Author3' => [
-//       'Article1',
-//       'Article2',
-//   ],
-//   'Author4' => [
-//       'Article1',
-//       'Article2',
-//   ],
-//   'Author5' => [
-//       'Article1',
-//       'Article2',
-//   ],
-// ];
-
-
-
-// $Articles = [ // nils array
-//
-// $article1 = [
-//     'title' => 'Stock Market Collapse',
-//     'Content' => 'the entire article',
-//     'Date' => '32 / 2',
-//     'Likes' => '1',
-//     'Author' => [
-//         'Full Name' => "Hans Bajson",
-//         'ID' => '21938192',
-//     ],
-// ],
-// $article2 = [
-//     'title' => 'Stock Market Collapse2',
-//     'Content' => 'the entire article',
-//     'Date' => '32 / 2',
-//     'Likes' => '2',
-//     'Author' => [
-//         'Full Name' => "Greger Andersson",
-//         'ID' => '21938192',
-//     ],
-// ],
-// $article3 = [
-//     'title' => 'Stock Market Collapse3',
-//     'Content' => 'the entire article',
-//     'Date' => '32 / 2',
-//     'Likes' => '1',
-//     'Author' => [
-//         'Full Name' => "Hans Bajson",
-//         'ID' => '21938192',
-//     ],
-// ],
-// $article4 = [
-//     'title' => 'Stock Market Collapse',
-//     'Content' => 'the entire article',
-//     'Date' => '32 / 2',
-//     'Likes' => '1',
-//     'Author' => [
-//         'Full Name' => "Hans Bajson",
-//         'ID' => '21938192',
-//     ],
-// ],
-// ];
 
 ?>
