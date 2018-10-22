@@ -15,8 +15,9 @@ declare(strict_types=1);
   // }
 //}
 
-
-
-
-
+function compareDate($a, $b){
+  $time1 = strtotime($a['publisherDate']);
+  $time2 = strtotime($b['publisherDate']);
+  return $time1 - $time2;
+}
 ?>

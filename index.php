@@ -7,14 +7,19 @@ require __DIR__.'/functions.php';
 //   echo "<br>";
 // }
 
-// foreach($articles as $article){ // second iteration
-//   echo '<br>'.$article['title'].'<br>'.$article['content'].'<br>'.$article['publisherDate'].'<br>'.$article['likeCounter'].'<br>';
-//   foreach ($authors as $author) {
-//     if ($author['id'] === $article['authorId']) {
-//       echo $author['name'].'<br>';
-//     }
-//   }
-// }
+//Sorts the array by comparing the PublisherDate in Articles array.
+$sortedArticles = $articles;
+usort($sortedArticles, "compareDate");
+
+
+foreach($sortedArticles as $article){ // second iteration
+  echo '<br>'.$article['title'].'<br>'.$article['content'].'<br>'.$article['publisherDate'].'<br>'.$article['likeCounter'].'<br>';
+  foreach ($authors as $author) {
+    if ($author['id'] === $article['authorId']) {
+      echo $author['name'].'<br>';
+    }
+  }
+}
  ?>
 
 <!DOCTYPE html>

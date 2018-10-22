@@ -40,7 +40,7 @@ $articles = [
       velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
       cupidatat non proident,
       sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    'publisherDate' => '2018-03-25',
+    'publisherDate' => "2018-03-25",
     'likeCounter' => 12,
     'authorId' => 1
 ],
@@ -53,7 +53,7 @@ $articles = [
     velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
     cupidatat non proident,
     sunt in culpa qui officia deserunt mollit anim id est laborum.',
-  'publisherDate' => '2018-02-16',
+  'publisherDate' => "2016-02-16",
   'likeCounter' => 100,
   'authorId' => 1
 ],
@@ -66,7 +66,7 @@ $articles = [
     velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
     cupidatat non proident,
     sunt in culpa qui officia deserunt mollit anim id est laborum.',
-  'publisherDate' => '2017-07-19',
+  'publisherDate' => "2017-07-19",
   'likeCounter' => 98,
   'authorId' => 2
 ],
