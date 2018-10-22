@@ -4,8 +4,7 @@ declare(strict_types=1);
 // This is the file where you can keep your data arrays such as articles and
 // authors.
 
-
-
+//Author id needs to be associated with the right Article id
 $authors = [
   [
     'id' => 1,
@@ -69,6 +68,45 @@ $articles = [
   'publisherDate' => "2017-07-19",
   'likeCounter' => 98,
   'authorId' => 2
+],
+[
+  'title' => 'NOT LOREM 2',
+  'content' => 'NOT Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+    cupidatat non proident,
+    sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  'publisherDate' => "2018-03-26",
+  'likeCounter' => 50,
+  'authorId' => 2
+],
+[
+  'title' => 'What is Time?',
+  'content' => 'Time is Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+    cupidatat non proident,
+    sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  'publisherDate' => "2018-03-27",
+  'likeCounter' => 44,
+  'authorId' => 3
+],
+[
+  'title' => 'Time is Everything!',
+  'content' => 'Time is Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+    cupidatat non proident,
+    sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  'publisherDate' => "2017-12-25",
+  'likeCounter' => 188,
+  'authorId' => 3
 ],
 
 ];

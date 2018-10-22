@@ -44,7 +44,7 @@ foreach($sortedArticles as $article){ // second iteration
             </h1>
 
             <!-- Blog Post -->
-            <?php foreach ($articles as $article): ?>
+            <?php foreach ($sortedArticles as $article): ?>
 
 
             <div class="card mb-4">
