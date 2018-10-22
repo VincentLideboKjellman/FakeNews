@@ -69,4 +69,24 @@
 //     ],
 // ],
 // ];
+
+//------------------------------------------------------------------------------
+
+// first loop iteration
+// foreach ($authors as $author) {
+//   echo $author['id'];
+//   echo "<br>";
+// }
+
+//------------------------------------------------------------------------------
+
+//When I tried to make the author and article connection in a function
+//function printArticle(int $id, array $authors): string{
+//  $authorsAndArticles = [];
+  // foreach ($authors as $author) {
+  //   if ($author['id'] === $id) {
+  //     return ($author['name']);
+  //   }
+  // }
+//}
 ?>

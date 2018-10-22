@@ -1,10 +1,8 @@
 <?php
 declare(strict_types=1);
+//This file holds the Data in the arrays.
 
-// This is the file where you can keep your data arrays such as articles and
-// authors.
-
-//Author id needs to be associated with the right Article id
+//Author id needs to be associated with the right Article id.
 $authors = [
   [
     'id' => 1,
@@ -28,10 +26,9 @@ $authors = [
   ]
 ];
 
-
 $articles = [
   [
-    'title' => 'Lorem',
+    'title' => 'This is: Lorem - Why we make it easy for us',
     'content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit,
       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
       ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
@@ -39,7 +36,7 @@ $articles = [
       velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
       cupidatat non proident,
       sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    'publisherDate' => "2018-03-25",
+    'publisherDate' => "2016-03-25",
     'likeCounter' => 12,
     'authorId' => 1
 ],
@@ -59,12 +56,12 @@ $articles = [
     Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer
     ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a,
     sodales sit amet, nisi.',
-  'publisherDate' => "2016-02-16",
+  'publisherDate' => "2018-02-16",
   'likeCounter' => 100,
   'authorId' => 1
 ],
 [
-  'title' => 'CARS',
+  'title' => 'Machine Learning is changing the',
   'content' => '
     VW’s issues have made his consolidation thesis "more valid," Marchionne said
     Wednesday on an earnings conference call. The CEO, who has been rebuffed by
@@ -84,11 +81,11 @@ $articles = [
   'authorId' => 2
 ],
 [
-  'title' => 'NOT LOREM 2',
-  'content' => 'NOT Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+  'title' => '5 Reasons Why This Works',
+  'content' => '1: This works because ipsum dolor sit amet, consectetur adipisicing elit,
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
     ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+    ex ea commodo 2: consequat. Duis aute irure dolor in reprehenderit in voluptate
     velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
     cupidatat non proident,
     sunt in culpa qui officia deserunt mollit anim id est laborum.',
@@ -122,8 +119,5 @@ $articles = [
   'likeCounter' => 188,
   'authorId' => 3
 ],
-
 ];
-
-
 ?>

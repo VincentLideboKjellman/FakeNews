@@ -2,24 +2,22 @@
 require __DIR__.'/data.php';
 require __DIR__.'/functions.php';
 
-// foreach ($authors as $author) { // first iteration
-//   echo $author['id'];
-//   echo "<br>";
-// }
+
 
 //Sorts the array by comparing the PublisherDate in Articles array.
 $sortedArticles = $articles;
 usort($sortedArticles, "compareDate");
 
 
-foreach($sortedArticles as $article){ // second iteration
-  echo '<br>'.$article['title'].'<br>'.$article['content'].'<br>'.$article['publisherDate'].'<br>'.$article['likeCounter'].'<br>';
-  foreach ($authors as $author) {
-    if ($author['id'] === $article['authorId']) {
-      echo $author['name'].'<br>';
-    }
-  }
-}
+// For testing
+// foreach($sortedArticles as $article){ // second loop iteration
+//   echo '<br>'.$article['title'].'<br>'.$article['content'].'<br>'.$article['publisherDate'].'<br>'.$article['likeCounter'].'<br>';
+//   foreach ($authors as $author) {
+//     if ($author['id'] === $article['authorId']) {
+//       echo $author['name'].'<br>';
+//     }
+//   }
+// }
  ?>
 
 <!DOCTYPE html>
