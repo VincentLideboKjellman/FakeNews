@@ -59,7 +59,9 @@ usort($sortedArticles, "compareDate");
                   <?php if ($author['id'] === $article['authorId']): ?>
                   <a href="#"><?php echo $author['name']  ?></a>
                   <?php endif; ?>
+
                 <?php endforeach; ?>
+                <p><?php echo $article['likeCounter'] ?></p>
 
               </div>
             </div>
