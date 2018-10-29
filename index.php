@@ -24,13 +24,14 @@ usort($sortedArticles, "compareDate");
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/styles.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title></title>
   </head>
   <body>
     <!-- Page Content -->
-      <div class="container">
+      <div class="container centered">
 
         <div class="row">
 
@@ -61,7 +62,7 @@ usort($sortedArticles, "compareDate");
                   <?php endif; ?>
 
                 <?php endforeach; ?>
-                <p><?php echo $article['likeCounter'] ?></p>
+                <p>Likes: <?php echo $article['likeCounter'] ?></p>
 
               </div>
             </div>
@@ -70,22 +71,22 @@ usort($sortedArticles, "compareDate");
 
 
             <!-- Pagination -->
-            <ul class="pagination justify-content-center mb-4">
+            <!-- <ul class="pagination justify-content-center mb-4">
               <li class="page-item">
                 <a class="page-link" href="#">&larr; Older</a>
               </li>
               <li class="page-item disabled">
                 <a class="page-link" href="#">Newer &rarr;</a>
               </li>
-            </ul>
+            </ul> -->
 
           </div>
 
           <!-- Sidebar Widgets Column -->
-          <div class="col-md-4">
+          <!-- <div class="col-md-4"> -->
 
             <!-- Search Widget -->
-            <div class="card my-4">
+            <!-- <div class="card my-4">
               <h5 class="card-header">Search</h5>
               <div class="card-body">
                 <div class="input-group">
@@ -95,10 +96,10 @@ usort($sortedArticles, "compareDate");
                   </span>
                 </div>
               </div>
-            </div>
+            </div> -->
 
             <!-- Categories Widget -->
-            <div class="card my-4">
+            <!-- <div class="card my-4">
               <h5 class="card-header">Categories</h5>
               <div class="card-body">
                 <div class="row">
@@ -130,17 +131,17 @@ usort($sortedArticles, "compareDate");
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
 
             <!-- Side Widget -->
-            <div class="card my-4">
+            <!-- <div class="card my-4">
               <h5 class="card-header">Side Widget</h5>
               <div class="card-body">
                 You can put anything you want inside of these side widgets. They are easy to use, and feature the new Bootstrap 4 card containers!
               </div>
             </div>
 
-          </div>
+          </div> -->
 
         </div>
         <!-- /.row -->

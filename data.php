@@ -10,19 +10,19 @@ $authors = [
   ],
   [
     'id' => 2,
-    'name' => 'Kjell Vinceman'
+    'name' => 'Stephen King'
   ],
   [
     'id' => 3,
-    'name' => 'Vincent Lideman'
+    'name' => 'Mark Twain'
   ],
   [
     'id' => 4,
-    'name' => 'Vince Coolman'
+    'name' => 'Edgar Allan Poe'
   ],
   [
     'id' => 5,
-    'name' => 'Kjellman Kjellmansson'
+    'name' => 'Donald Duck'
   ]
 ];
 
