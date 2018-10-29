@@ -47,7 +47,7 @@ usort($sortedArticles, "compareDate");
 
 
             <div class="card mb-4">
-              <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
+              <img class="card-img-top" src="<?php echo $article['img']?>" alt="asd" width='750px' height='300px'>
               <div class="card-body">
                 <h2 class="card-title"><?php echo $article['title'];?></h2>
                 <p class="card-text"><?php echo $article['content']; ?></p>

@@ -104,7 +104,8 @@ $articles = [
     sunt in culpa qui officia deserunt mollit anim id est laborum.',
   'publisherDate' => "2018-03-27",
   'likeCounter' => 44,
-  'authorId' => 3
+  'authorId' => 3,
+  'img' => "img/whatistime.jpg"
 ],
 [
   'title' => 'Time is Everything!',
