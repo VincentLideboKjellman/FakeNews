@@ -63,7 +63,7 @@ $articles = [
   'img' => 'img/lorem2.png'
 ],
 [
-  'title' => 'Machine Learning is changing the',
+  'title' => 'Machine Learning is changing the world',
   'content' => '
     VW’s issues have made his consolidation thesis "more valid," Marchionne said
     Wednesday on an earnings conference call. The CEO, who has been rebuffed by
@@ -80,7 +80,8 @@ $articles = [
     vehicles of its own design on public roads around Mountain View.',
   'publisherDate' => "2017-07-19",
   'likeCounter' => 98,
-  'authorId' => 2
+  'authorId' => 2,
+  'img' => "img/ml.jpg"
 ],
 [
   'title' => '5 Reasons Why This Works',
@@ -123,6 +124,62 @@ $articles = [
   'likeCounter' => 188,
   'authorId' => 3,
   'img' => 'img/time2.jpg'
+],
+[
+  'title' => 'Scientists have discovered why Coffee is good for you',
+  'content' => 'Coffee is Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+    cupidatat non proident,
+    sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  'publisherDate' => "2017-05-04",
+  'likeCounter' => 468,
+  'authorId' => 4,
+  'img' => 'img/coffee1.jpg'
+],
+[
+  'title' => 'New study shows coffee might be bad for you',
+  'content' => 'Yes, that is right, scientists say: Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+    cupidatat non proident,
+    sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  'publisherDate' => "2018-01-02",
+  'likeCounter' => 517,
+  'authorId' => 4,
+  'img' => 'img/coffee2.jpg'
+],
+[
+  'title' => 'You will NEVER guess how this man made 1 million in one month!',
+  'content' => 'You might think that making Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+    cupidatat non proident,
+    sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  'publisherDate' => "2017-11-03",
+  'likeCounter' => 1783,
+  'authorId' => 5,
+  'img' => 'img/money1.jpg'
+],
+[
+  'title' => 'This is exactly what one man said and you will NOT believe it!',
+  'content' => 'No one knows what ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+    cupidatat non proident,
+    sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  'publisherDate' => "2016-08-27",
+  'likeCounter' => 47,
+  'authorId' => 5,
+  'img' => 'img/said1.jpg'
 ],
 ];
 ?>
