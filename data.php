@@ -38,7 +38,8 @@ $articles = [
       sunt in culpa qui officia deserunt mollit anim id est laborum.',
     'publisherDate' => "2016-03-25",
     'likeCounter' => 12,
-    'authorId' => 1
+    'authorId' => 1,
+    'img' => 'img/lorem1.jpg'
 ],
 [
   'title' => 'This is: Lorem 2 - The words of internet',
@@ -58,7 +59,8 @@ $articles = [
     sodales sit amet, nisi.',
   'publisherDate' => "2018-02-16",
   'likeCounter' => 100,
-  'authorId' => 1
+  'authorId' => 1,
+  'img' => 'img/lorem2.png'
 ],
 [
   'title' => 'Machine Learning is changing the',
@@ -91,7 +93,8 @@ $articles = [
     sunt in culpa qui officia deserunt mollit anim id est laborum.',
   'publisherDate' => "2018-03-26",
   'likeCounter' => 50,
-  'authorId' => 2
+  'authorId' => 2,
+  'img' => "img/top5.jpg"
 ],
 [
   'title' => 'What is Time?',
@@ -108,7 +111,7 @@ $articles = [
   'img' => "img/whatistime.jpg"
 ],
 [
-  'title' => 'Time is Everything!',
+  'title' => 'Timing is Everything!',
   'content' => 'Time is Lorem ipsum dolor sit amet, consectetur adipisicing elit,
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
     ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
@@ -118,7 +121,8 @@ $articles = [
     sunt in culpa qui officia deserunt mollit anim id est laborum.',
   'publisherDate' => "2017-12-25",
   'likeCounter' => 188,
-  'authorId' => 3
+  'authorId' => 3,
+  'img' => 'img/time2.jpg'
 ],
 ];
 ?>
