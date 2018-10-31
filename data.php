@@ -58,7 +58,7 @@ $articles = [
     ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a,
     sodales sit amet, nisi.',
   'publisherDate' => "2018-02-16",
-  'likeCounter' => 100,
+  'likeCounter' => 2745,
   'authorId' => 1,
   'img' => 'img/lorem2.png'
 ],
