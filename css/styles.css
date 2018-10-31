@@ -1,6 +1,7 @@
-/*h1{
-  color: blue;
-}*/
+h1{
+  color: #A89163;
+  font-family: 'Cinzel', serif;
+}
 
 /* .container{
   background-color: rgb(32, 40, 52) !important;
@@ -8,4 +9,12 @@
 
 body{
   background-color: #202834 !important;
+}
+
+.card-edit{
+  font-family: 'Montserrat', serif;
+  color: #475371;
+}
+h2{
+  font-family: 'Cinzel', serif;
 }
