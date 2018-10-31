@@ -1,7 +1,7 @@
 # FakeNews
 
 ## Description
-Fake News
+Fake News is a site that shows different articles that are fake, It's meant for an assignment.
 
 
 ## Installation
@@ -23,4 +23,4 @@ Benjamin Fransson
 
 ## License
 
-The MIT License)
+The MIT License

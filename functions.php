@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 // Compares two associative array publisherDate values for sorting articles so -
 // -it's used correctly in the front end.
-function compareDate(array $a, array $b){ //remove after HELP: Vad skall returneras? plus hur fungerar returnen??
+function compareDate(array $a, array $b){
   $time1 = strtotime($a['publisherDate']);
   $time2 = strtotime($b['publisherDate']);
   return $time1 < $time2;

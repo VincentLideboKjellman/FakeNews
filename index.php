@@ -1,23 +1,14 @@
 <?php
+declare(strict_types=1);
 require __DIR__.'/data.php';
 require __DIR__.'/functions.php';
 
 
+$siteName = "Fake News";
 
 //Sorts the array by comparing the PublisherDate in Articles array.
 $sortedArticles = $articles;
 usort($sortedArticles, "compareDate");
-
-
-// For testing
-// foreach($sortedArticles as $article){ // second loop iteration
-//   echo '<br>'.$article['title'].'<br>'.$article['content'].'<br>'.$article['publisherDate'].'<br>'.$article['likeCounter'].'<br>';
-//   foreach ($authors as $author) {
-//     if ($author['id'] === $article['authorId']) {
-//       echo $author['name'].'<br>';
-//     }
-//   }
-// }
 ?>
 
 <!DOCTYPE html>
@@ -54,7 +45,6 @@ usort($sortedArticles, "compareDate");
             <div class="card-body card-edit">
               <h2 class="card-title"><?php echo $article['title'];?></h2>
               <p class="card-text"><?php echo $article['content']; ?></p>
-              <!--a href="#" class="btn btn-primary">Read More &rarr;</a>-->
             </div>
             <div class="card-footer text-muted">
               Posted on <?php echo $article['publisherDate'];?> by
@@ -75,9 +65,13 @@ usort($sortedArticles, "compareDate");
   <!-- /.container -->
 
   <!-- Footer -->
+  <?php
+
+
+   ?>
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Fake News 2018</p>
+      <p class="m-0 text-center text-white">Copyright &copy; <?php echo $siteName.' 2018' ?></p>
     </div>
     <!-- /.container -->
   </footer>
