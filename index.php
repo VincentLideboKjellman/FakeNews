@@ -27,15 +27,11 @@ usort($sortedArticles, "compareDate");
   <!-- Page Content -->
   <!--------------------------------------------------------------------->
   <div class="container">
-
     <div class="row">
       <div class="col-md-3"></div>
       <!-- Blog Entries Column -->
-
       <div class="col-md-6" align="center">
-
         <h1 class="my-4">Fake News</h1>
-
         <!--------------------------------------------------------------------->
         <!-- Blog Post -->
         <!--------------------------------------------------------------------->
