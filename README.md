@@ -10,7 +10,7 @@ Fake News
     ```
     git clone https://github.com/VincentLideboKjellman/FakeNews
     ```
-    1. Setup a dedicated webserver root in the cloned directory etc: `/home/${USER}/sites/FakeNews/`.
+2. Setup a dedicated webserver root in the cloned directory etc: `/home/${USER}/sites/FakeNews/`.
 
 
 ## Testers
