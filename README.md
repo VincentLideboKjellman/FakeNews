@@ -23,4 +23,4 @@ Benjamin Fransson
 
 ## License
 
-The MIT License ([MIT](https://raw.githubusercontent.com/erhuz/Fake-News/master/LICENSE))
+The MIT License)
